@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEE;
+}
+
+.hidden{
+    display: none;
+}
+ .wrapper, #js-form, fieldset{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 400px;
+     margin: 0px auto;
+     text-align: center;
+
+ }
+
+.item,.state-field, .result-field{
+    width: 100%;
+}
+
+label, input{
+
+    display: block;
+    padding: 15px; auto;
+    margin: 15px auto;
+
+}
+
+.submitButton{
+    margin-top: 45px;
+    padding:auto 25px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+ul{
+    list-style-type: none;
+}
